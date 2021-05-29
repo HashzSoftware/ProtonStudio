@@ -1,5 +1,5 @@
-#include <ui/editor/editor_window.h>
-#include <assert.h>
+#include "editor_window.h"
+#include "pch.h"
 
 EditorWindow::EditorWindow(std::string p_title) {
     
@@ -7,5 +7,14 @@ EditorWindow::EditorWindow(std::string p_title) {
         return;
     
     window = glfwCreateWindow(default_window_size[0], default_window_size[1], (p_title + " - Proton Studio").c_str(), NULL, NULL);
-    assert(window);
+    if (!window) glfwTerminate();
+
+    while (!glfwWindowShouldClose(window)) {
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        glfwSwapBuffers(window);
+        glfwPollEvents();
+    }
+
+    glfwTerminate();
+    return;
 }
