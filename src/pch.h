@@ -9,3 +9,10 @@
 
 #endif
 
+#if defined(PROTON_WINDOWS)
+#include <windows.h>
+#elif deined(PROTON_LINUX)
+#include <bits/stdc++.h>
+#endif
+
+#include <iostream>
