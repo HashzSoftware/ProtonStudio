@@ -1,5 +1,7 @@
 #include "File.h"
 
-File::File(std::string path,std::string name){
-    return;
+namespace Proton{
+    File::File(std::string path,std::string name){
+        return;
+    }
 }
