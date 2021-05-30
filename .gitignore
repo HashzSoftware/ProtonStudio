@@ -1,2 +1,6 @@
 bin/
 .sconsign.dblite
+scons.exe
+*.exe
+*.obj
+*.o
