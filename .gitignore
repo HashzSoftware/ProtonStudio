@@ -4,4 +4,4 @@ scons.exe
 *.exe
 *.obj
 *.o
-.vscode/
+*.json
