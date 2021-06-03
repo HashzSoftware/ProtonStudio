@@ -4,4 +4,5 @@ scons.exe
 *.exe
 *.obj
 *.o
-*.json
+/.vscode/c_cpp_protipies.json
+/.vscode/*.json
