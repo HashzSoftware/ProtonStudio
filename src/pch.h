@@ -1,3 +1,15 @@
+
+// Basic includes
+#include <iostream>
+#include <fstream>
+#include <ostream>
+#include <string>
+#include <vector>
+
+// GLFW
+#include <GLFW/glfw3.h>
+
+// Platform Stuff
 #if defined(_WIN32) || defined(__GNUC__)
 #define PROTON_WINDOWS
 
@@ -15,4 +27,6 @@
 #include <bits/stdc++.h>
 #endif
 
-#include <iostream>
+//#include "Project/Project.h"
+//#include "Core/Proton.h"
+//#include "ui/editor/editor_window.h"
