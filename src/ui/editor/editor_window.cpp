@@ -1,5 +1,5 @@
 #include "editor_window.h"
-//#include "pch.h"
+#include "pch.h"
 
 EditorWindow::EditorWindow(std::string p_title) {
     
