@@ -6,7 +6,7 @@
 #include "pch.h"
 
 namespace Proton{
-    struct Project{};
+    
 }
 
 #endif
