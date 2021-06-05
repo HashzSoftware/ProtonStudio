@@ -35,7 +35,3 @@
 #elif deined(PROTON_LINUX)
 #include <bits/stdc++.h>
 #endif
-
-//#include "Project/Project.h"
-//#include "Core/Proton.h"
-//#include "ui/editor/editor_window.h"

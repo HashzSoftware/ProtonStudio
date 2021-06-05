@@ -4,6 +4,7 @@
 #define PROTON_H
 
 #include "pch.h"
+#include "Maths.h"
 #include "../ui/editor/editor_window.h"
 
 namespace Proton{
@@ -12,6 +13,7 @@ namespace Proton{
 }
 
 namespace Proton{
+    extern vchar CurrentProject;
     extern kuint Init(EditorWindow* window);
     extern kuint Exit();
     extern void Pause();

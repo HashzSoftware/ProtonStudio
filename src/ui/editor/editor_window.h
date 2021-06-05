@@ -1,5 +1,8 @@
 #pragma once
 
+#ifndef PROTON_EDITOR_WINDOW_H
+#define PROTON_EDITOR_WINDOW_H
+
 #include <GLFW/glfw3.h>
 #include <string>
 
@@ -9,3 +12,5 @@ struct EditorWindow {
 
     EditorWindow(std::string p_title);
 };
+
+#endif

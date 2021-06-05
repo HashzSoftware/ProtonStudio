@@ -1,5 +1,10 @@
 #pragma once
 
+#ifndef PROTON_MATHS_H
+#define PROTON_MATHS_H
+
+#include "pch.h"
+
 namespace Proton{
     using vint = int;
     using vuint = uint32_t;
@@ -12,4 +17,8 @@ namespace Proton{
     using vchar = char;
     using vstring = char*;
     using vbool = bool;
+
+    using Matrix4 = glm::mat4;
 }
+
+#endif

@@ -5,7 +5,7 @@
 #include <windows.h>
 
 int main() {
-    EditorWindow *window = new EditorWindow("No Project");
+    EditorWindow *window = new EditorWindow("No Project ");
 }
 
 #endif
