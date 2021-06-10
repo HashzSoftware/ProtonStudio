@@ -1,5 +1,8 @@
 #pragma once
 
+#ifndef PROTON_PCH_H
+#define PROTON_PCH_H
+
 // Basic includes
 #include <iostream>
 #include <fstream>
@@ -34,4 +37,6 @@
 #include <windows.h>
 #elif deined(PROTON_LINUX)
 #include <bits/stdc++.h>
+#endif
+
 #endif

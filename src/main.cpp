@@ -1,5 +1,5 @@
 #include "pch.h"
-#include "ui/editor/editor_window.h"
+#include "Editor/Window/editor_window.h"
 
 #if defined(PROTON_WINDOWS)
 #include <windows.h>

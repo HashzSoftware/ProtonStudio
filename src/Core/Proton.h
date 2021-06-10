@@ -5,7 +5,7 @@
 
 #include "pch.h"
 #include "Maths.h"
-#include "../ui/editor/editor_window.h"
+#include "../Editor/Window/editor_window.h"
 
 namespace Proton{
     using kuint = uint32_t;
@@ -13,8 +13,7 @@ namespace Proton{
 }
 
 namespace Proton{
-    extern vchar CurrentProject;
-    extern kuint Init(EditorWindow* window);
+    extern kuint Init();
     extern kuint Exit();
     extern void Pause();
     extern void Testbreak();
