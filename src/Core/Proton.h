@@ -13,7 +13,7 @@ namespace Proton{
 }
 
 namespace Proton{
-    extern kuint Init();
+    extern kuint Init(EditorWindow *window);
     extern kuint Exit();
     extern void Pause();
     extern void Testbreak();

@@ -3,6 +3,9 @@
 #ifndef PROTON_PCH_H
 #define PROTON_PCH_H
 
+#define PROTON_TRUE 0
+#define PROTON_FALSE -1
+
 // Basic includes
 #include <iostream>
 #include <fstream>
@@ -14,7 +17,6 @@
 #include <GLFW/glfw3.h>
 
 // GLM
-
 #define GLM_ENABLE_EXPERIMENTAL
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp>
@@ -27,7 +29,6 @@
 
 #elif defined(__linux__)
 #define PROTON_LINUX
-
 #else
 #error "Unsupported build platform!"
 
